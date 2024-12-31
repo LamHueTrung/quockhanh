@@ -1,0 +1,170 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(270deg, #2D99AE 20.1%, #0C5776 64.1%, #001C44 100%);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #001C44;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h3 {
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #2D99AE;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0C5776;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2D99AE;
+}
+
+.btn-danger {
+    background-color: #FF5E5E;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #FF3030;
+}
+
+.btn-warning {
+    background-color: #FFC107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #FFB300;
+}
+
+/* Tables */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 10px;
+}
+
+.table thead {
+    background: #0C5776;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background: rgba(12, 87, 118, 0.1);
+}
+
+/* Form Styling */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* Card Styling */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Badge Styling */
+.badge {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.badge.bg-info {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+.badge.bg-secondary {
+    background-color: #6C757D;
+    color: #fff;
+}
+
+.badge.bg-success {
+    background-color: #28A745;
+    color: #fff;
+}
+
+.badge.bg-warning {
+    background-color: #FFC107;
+    color: #000;
+}
+
+/* Footer (optional) */
+.footer {
+    background: #001C44;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
